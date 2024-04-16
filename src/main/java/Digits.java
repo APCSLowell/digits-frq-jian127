@@ -20,8 +20,11 @@ public class Digits
 
 	public boolean isStrictlyIncreasing()
 	{ 
-		if(digitList.digits() == 0){
-			return true;
+		for(int i = 0; i < digits.size() - 1; i ++){
+			if(digits.get(i) <= digits.get(i + 1){
+				return true;
+			}
+			return false;
 		}
 		
 

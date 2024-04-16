@@ -13,7 +13,7 @@ public class Digits
 		}
 		int number = num;
 		while( n > 0){
-			digitList,add(0,n%10);
+			digitList.add(0,n%10);
 			n=n/10;
 		}
 	}
